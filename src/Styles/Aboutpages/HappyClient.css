@@ -1,0 +1,50 @@
+.happy-client {
+  background-color: var(--first-primary-color);
+}
+
+.client-heading {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: #FFFFFF;
+  padding: 76px 0px;
+  position: relative;
+  z-index: 2;
+}
+
+.client-image-top {
+  margin-top: -125px;
+  margin-left: 75px;
+}
+
+.Client-image-position {
+  position: absolute;
+  top: 55px;
+  left: -25px;
+  z-index: -1;
+}
+
+.tainer-skills {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+
+.tainer-details {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BCB8D0;
+  margin: 24px 0 0 0;
+}
+.client-details {
+  margin-bottom: 138px;
+}

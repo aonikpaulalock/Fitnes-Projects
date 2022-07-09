@@ -2,8 +2,8 @@ import React from 'react';
 import "../Styles/Footer.css"
 const Footer = () => {
   return (
-    <div className="container-fluid">
-      <div className="container-fluid frist-back">
+    <>
+      <div className="frist-back">
         <div className="container">
           <div className="d-flex justify-content-between align-items-center">
             <h1 className="footer-heading">Everst</h1>
@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
