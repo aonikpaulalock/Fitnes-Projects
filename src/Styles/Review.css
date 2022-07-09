@@ -1,0 +1,44 @@
+
+.reviews-posion {
+  position: absolute;
+  background-color:  #F8F7FC;
+  width: 920px !important;
+  height: 398px;
+  z-index: -1;
+  left: 200px;
+}
+
+.reviews-inner {
+  background: #FFFFFF;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+}
+
+.review-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 20px;
+}
+
+.review-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.review-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: #BCB8D0;
+  margin-bottom: 0;
+}

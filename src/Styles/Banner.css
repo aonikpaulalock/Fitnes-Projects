@@ -1,0 +1,26 @@
+.banner-bg {
+  background-color: #0A071B;
+  padding-top: 70px;
+}
+
+.banner-sub-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BCB8D0;
+}
+
+.banner-main-heading {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 61px;
+  line-height: 93px;
+  color: #FFFFFF;
+}
+
+.button-gap {
+  margin-top: 65px;
+}

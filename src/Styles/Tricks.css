@@ -1,0 +1,19 @@
+.tricks-container {
+  margin:103px 0 60px 0px
+}
+.tricks-heading {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  text-align: center;
+  color: #0A071B;
+  position: relative;
+}
+.tricks-shape {
+  position: absolute;
+  top: -25px;
+  left: 290px;
+  z-index: -1;
+}

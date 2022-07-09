@@ -1,0 +1,26 @@
+.about-bg {
+  background-color: #0A071B;
+  padding-top: 200px;
+}
+.nagative-image {
+  margin-bottom: -240px;
+}
+.about-main {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+
+.about-peragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #BCB8D0;
+  margin-bottom: 35px;
+}

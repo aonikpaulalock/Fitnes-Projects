@@ -1,0 +1,32 @@
+.table-container {
+  margin-top: 176px;
+  padding: 30px 0px;
+}
+
+.schedule-main-heading {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 48px;
+  line-height: 70px;
+  text-align: center;
+  color: var(--first-primary-color);
+  margin-bottom: 49px;
+}
+
+.table-heading-back {
+  background-color: var(--first-primary-color);
+  border-left: none !important;
+}
+
+.table-sub-head th {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 33px 28px !important;
+  border-width: 0px 0px !important;
+}

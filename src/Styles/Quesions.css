@@ -1,0 +1,76 @@
+.Question {
+  width: 700px;
+  height: 778px;
+  margin: 190px auto;
+}
+
+.quesion-position {
+  position: relative;
+}
+
+.quesion-heading {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  text-align: center;
+  color: #0A071B !important;
+}
+
+.quesion-shape {
+  position: absolute;
+  top: -25px;
+  left: 50px;
+  z-index: -1;
+}
+
+.accordion-container {
+  margin: 60px 0 120px 0;
+}
+
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e") !important;
+  transform: scale(.7) !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../Asset/Cross/cross.png") !important;
+  transform: scale(1.2) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #0A071B !important;
+  color: #FFFFFF !important;
+}
+
+.accordion-item {
+  background: #0A071B !important;
+  border-radius: 5px !important;
+  border: none !important;
+  margin: 20px 0px;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.collapse-design {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+}
+
+.accordion-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #BCB8D0;
+  padding-left: 8px;
+}

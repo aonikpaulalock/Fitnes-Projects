@@ -1,0 +1,22 @@
+.nav-bg {
+  background-color: var(--first-primary-color);
+  padding: 15px 0px !important;
+}
+
+.nav-heading {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.nav-anchor {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #BCB8D0 !important;
+  margin-right: 20px;
+}

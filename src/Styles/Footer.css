@@ -1,0 +1,59 @@
+.frist-back {
+  height: 190px;
+  background-color: var(--first-primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-heading {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.footer-sub-heading span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #BCB8D0;
+  margin-right: 31px;
+  cursor: pointer;
+}
+
+.second-back {
+  height: 120px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2A263F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-footer-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.second-footer-heading span {
+  color: #F58859;
+}
+
+.second-footer-sub-heading span{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-right: 26px;
+  cursor: pointer;
+}
