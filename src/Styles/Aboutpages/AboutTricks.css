@@ -1,0 +1,86 @@
+.about-tricks {
+  margin-bottom: 120px;
+}
+
+.About-Tricks-Position {
+  padding-bottom: 50px;
+}
+
+.About-Tricks {
+  position: relative;
+  z-index: 2;
+}
+
+.about-tricks-shape {
+  position: absolute;
+  top: -25px;
+  left: 290px;
+  z-index: -1;
+}
+
+/* About Trick Css */
+
+.about-trick-card {
+  width: 318px;
+  height: 410px;
+}
+
+.tricks-name {
+  width: 226px;
+  height: 37px;
+  padding: 9px 14px;
+  background: #FAC4AD;
+  border-radius: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 15px 0 15px 0;
+}
+
+.tainer-tricks {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #0A071B;
+}
+
+.details-tricks {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  opacity: 0.8;
+  margin: 8px 0 18px 0;
+}
+
+.tricks-list {
+  list-style: none;
+}
+
+.tricks-list li::before {
+  content: "•";
+  color: #F58859;
+  display: inline-block;
+  width: 16px;
+  margin-left: -30px
+}
+
+.tricks-list li {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  margin-bottom: 6px;
+}
+.about-border-line {
+  border: 1px solid #E1DFEC;
+  margin: 27px 0 20px 0;
+}

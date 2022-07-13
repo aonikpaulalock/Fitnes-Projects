@@ -24,18 +24,20 @@ const HappyClient = () => {
             <img src={shape} alt="" className="client-image-top" />
           </div>
         </div>
-        <div className="row">
-          {
-            happys.map(happy => <div
-              className="col-lg-3"
-              key={happy.id}
-            >
-              <div className="client-details">
-                <h3 className="tainer-skills">{happy.skills}</h3>
-                <h6 className="tainer-details">{happy.des}</h6>
-              </div>
-            </div>)
-          }
+        <div className="happy-client-padding">
+          <div className="row">
+            {
+              happys.map(happy => <div
+                className="col-lg-3"
+                key={happy.id}
+              >
+                <div className="client-details">
+                  <h3 className="tainer-skills">{happy.skills}</h3>
+                  <h6 className="tainer-details">{happy.des}</h6>
+                </div>
+              </div>)
+            }
+          </div>
         </div>
       </div>
     </div>

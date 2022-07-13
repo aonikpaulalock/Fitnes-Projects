@@ -1,0 +1,12 @@
+.image-container {
+  margin-bottom: 127px;
+  position: relative;
+}
+.image-container img {
+  margin-top: -43%;
+}
+.inside-image-position {
+  position: absolute;
+  bottom: -70px;
+  right: -35px;
+}

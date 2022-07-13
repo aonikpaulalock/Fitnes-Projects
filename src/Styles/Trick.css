@@ -1,5 +1,6 @@
 .position-container {
   position: relative;
+  margin-bottom: 150px;
 }
 
 .tricks-card {
@@ -15,7 +16,7 @@
 
 .tricks-card-body {
   padding: 22px;
-  margin-bottom: 90px;
+  margin-bottom: 190px;
 }
 
 .trick-name {
@@ -38,7 +39,9 @@
   text-align: left !important;
   margin: 36px 0 22px 0;
 }
-
+.tainer-cursor{
+  cursor: pointer;
+}
 .taining-details {
   font-family: 'Dela Gothic One';
   font-style: normal;

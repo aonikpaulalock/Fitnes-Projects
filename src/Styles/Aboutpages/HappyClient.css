@@ -35,7 +35,9 @@
   color: #FFFFFF;
   margin-bottom: 0px;
 }
-
+.happy-client-padding {
+  padding-bottom: 300px;
+}
 .tainer-details {
   font-family: 'Inter';
   font-style: normal;

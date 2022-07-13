@@ -1,0 +1,40 @@
+.Services-Container {
+  background-color: var(--first-primary-color);
+  position: relative;
+}
+.service-shape {
+  position: absolute;
+  top: 230px;
+  left: -5px;
+}
+.servicesPage-content {
+    padding: 120px 0px;
+}
+.servicesPage-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BCB8D0;
+  text-align: center;
+}
+
+.servicesPage-main-title {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 93px;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 2;
+}
+
+.servicesPage-shape-position {
+  position: absolute;
+  top: -30px;
+  left: -34px;
+  z-index: -1;
+}

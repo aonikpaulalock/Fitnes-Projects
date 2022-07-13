@@ -1,0 +1,63 @@
+.Blogs-Details-Banner {
+  background-color: var(--first-primary-color);
+  padding-bottom: 460px;
+}
+
+.blogs-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 115px 0 64px 0;
+}
+
+.blogs-traning {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BCB8D0;
+  width: 110px;
+  height: 40px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2A263F;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 auto 16px auto;
+}
+
+.blogs-main-heading {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 93px;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 2;
+}
+
+.blogs-position-image {
+  position: absolute;
+  top: 230px;
+  left: 215px;
+  z-index: 1;
+}
+
+.tainer-description {
+  text-align: center;
+}
+
+.tainer-description img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  margin: 50px 0 30px 0;
+}
+.tainer-description h6 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}

@@ -1,0 +1,57 @@
+.servicesDetails-Container {
+  background-color: var(--first-primary-color);
+  position: relative;
+  padding-bottom: 175px;
+}
+
+.servicesDetails-shape {
+  position: absolute;
+  top: 230px;
+  left: -5px;
+}
+
+.servicesDetails-content {
+  padding: 120px 0px;
+}
+
+.servicesDetails-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BCB8D0;
+  text-align: center;
+}
+
+.servicesDetails-main-title {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 93px;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 2;
+}
+
+.servicesDetails-shape-position {
+  position: absolute;
+  top: -20px;
+  left: 210px;
+  z-index: -1;
+}
+
+.servicesDetails-main-peragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #BCB8D0;
+  width: 62%;
+  margin: 25px auto 40px auto;
+}

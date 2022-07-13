@@ -16,10 +16,10 @@ const Header = () => {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link to="/home" as={Link} className="nav-anchor">Home</Nav.Link>
+            <Nav.Link to="/" as={Link} className="nav-anchor">Home</Nav.Link>
             <Nav.Link to="/aboutpage" as={Link} className="nav-anchor">About</Nav.Link>
-            <Nav.Link to="#" as={Link} className="nav-anchor">Services</Nav.Link>
-            <Nav.Link to="#" as={Link} className="nav-anchor">Blogs</Nav.Link>
+            <Nav.Link to="/servicePages" as={Link} className="nav-anchor">Services</Nav.Link>
+            <Nav.Link to="/blogs" as={Link} className="nav-anchor">Blogs</Nav.Link>
             <Nav.Link to="#" as={Link} className="nav-anchor">Contact</Nav.Link>
           </Nav>
           <div>

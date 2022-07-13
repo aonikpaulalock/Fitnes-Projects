@@ -1,0 +1,66 @@
+[
+  {
+    "name":"TRAINING",
+    "frontImg":"https://i.ibb.co/1dVBdWM/ticks1.png",
+    "mainheading":"The 10 best exercises to do in your park",
+    "tainer":{
+      "tainerName":"Jome Bell",
+      "tainerImg":"https://i.ibb.co/hmB9h8Z/tik1.png",
+      "tainerDetails":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio amet egestasolm dignissim eu nunc. Id pulvinar enim volutpat tellus. Cras tellus ac dui at sed.",
+      "Expert":"All Catagory Expert"
+    },
+    "dynamicDetais":{
+      "mainDetailsImg":"https://i.ibb.co/qxMdWfX/details-Blogs1.png",
+      "subDetailsImg":"https://i.ibb.co/H29BPF0/details-Blogs2.png",
+      "detailsText1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio amet egestasolm dignissim eu nunc. Id pulvinar enim volutpat tellus. Cras tellus ac dui at sed. Suspendisse feugiat scelerisque et, viverra urna imperdiet non malesuada. Inol massa id tellus natoque augue in et, et. Vitae interdum quis lacus ut viverra.",
+      "detailsText2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "detailsText3": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+      "detailsText4":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "detailsText5":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "detailsText6":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+    }
+  },
+  {
+    "name":"TRAINING",
+    "frontImg":"https://i.ibb.co/KXHTSRW/ticks2.png",
+    "mainheading":"The interesting mental health benefits of exercise",
+    "tainer":{
+      "tainerName":"Ben Stoke",
+      "tainerImg":"https://i.ibb.co/x1BM1By/tik3.png",
+      "tainerDetails":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio amet egestasolm dignissim eu nunc. Id pulvinar enim volutpat tellus. Cras tellus ac dui at sed.",
+      "Expert":"Fitness Expert"
+    },
+    "dynamicDetais":{
+      "mainDetailsImg":"https://i.ibb.co/qxMdWfX/details-Blogs1.png",
+      "subDetailsImg":"https://i.ibb.co/H29BPF0/details-Blogs2.png",
+      "detailsText1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio amet egestasolm dignissim eu nunc. Id pulvinar enim volutpat tellus. Cras tellus ac dui at sed. Suspendisse feugiat scelerisque et, viverra urna imperdiet non malesuada. Inol massa id tellus natoque augue in et, et. Vitae interdum quis lacus ut viverra.",
+      "detailsText2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "detailsText3": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+      "detailsText4":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "detailsText5":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "detailsText6":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+    }
+  },
+  {
+    "name":"FITNESS",
+    "frontImg":"https://i.ibb.co/r3Rjx39/ticks3.png",
+    "mainheading":"6 essential and easy yoga poses for beginners",
+    "tainer":{
+      "tainerName":"Bessie Cooper",
+      "tainerImg":"https://i.ibb.co/KXHTSRW/ticks2.png",
+      "tainerDetails":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio amet egestasolm dignissim eu nunc. Id pulvinar enim volutpat tellus. Cras tellus ac dui at sed.",
+      "Expert":"Yoga Expert"
+    },
+    "dynamicDetais":{
+      "mainDetailsImg":"https://i.ibb.co/qxMdWfX/details-Blogs1.png",
+      "subDetailsImg":"https://i.ibb.co/H29BPF0/details-Blogs2.png",
+      "detailsText1":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio amet egestasolm dignissim eu nunc. Id pulvinar enim volutpat tellus. Cras tellus ac dui at sed. Suspendisse feugiat scelerisque et, viverra urna imperdiet non malesuada. Inol massa id tellus natoque augue in et, et. Vitae interdum quis lacus ut viverra.",
+      "detailsText2":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "detailsText3": "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+      "detailsText4":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "detailsText5":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "detailsText6":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc."
+    }
+  }
+
+]
