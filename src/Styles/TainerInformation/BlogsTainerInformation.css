@@ -5,10 +5,74 @@
 
 .Blogs-Information {
   width: 730px;
-  height: 636px;
   background: #FFFFFF;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02), -10px -10px 20px rgba(0, 0, 0, 0.02);
   border-radius: 5px;
   margin: 0 auto;
-  margin-top: -120px;
+  margin-top: -160px;
+  margin-bottom: 100px;
+
+}
+
+.tainer-information img {
+  width: 220px;
+  height: 220px;
+  display: block;
+  object-fit: contain;
+  margin: 0 auto;
+  padding-top: 55px;
+}
+
+.tainer-information h3 {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: var(--first-primary-color);
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.tainer-information h6 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.tainer-information p {
+  font-family: 'Inter';
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 10px 45px;
+}
+.tainer-contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.tainer-contact svg {
+  width: 25px;
+  height: 24px;
+  cursor: pointer;
+  transition: all .5s linear;
+}
+.svg-facebook:hover {
+  color: #3b5998;
+}
+.svg-twitter:hover {
+  color: #00acee;
+
+}
+.svg-instagram:hover {
+  color:  #E4405F;
 }

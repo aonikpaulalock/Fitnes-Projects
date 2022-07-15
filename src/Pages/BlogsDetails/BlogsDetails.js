@@ -25,7 +25,7 @@ const BlogsDetails = () => {
       <BlogsTainerDetails detailsBlogs={detailsBlogs} />
       <Tricks/>
       <Sliders/>
-      <BlogsTainerInformation detailsBlogs={detailsBlogs}/>
+      <BlogsTainerInformation/>
     </>
   );
 };

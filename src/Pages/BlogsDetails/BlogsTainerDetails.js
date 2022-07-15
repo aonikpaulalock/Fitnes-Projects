@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import "../../Styles/BlogsDetails/BlogsTainerDetails.css"
 const BlogsTainerDetails = ({ detailsBlogs }) => {
   const navigate = useNavigate()
-  const { tainer } = detailsBlogs;
+  const { _id,tainer } = detailsBlogs;
   return (
     <div className="container">
       <div className="row">
@@ -14,7 +14,7 @@ const BlogsTainerDetails = ({ detailsBlogs }) => {
           <div className="tainer-details-content">
             <div className="row mx-auto">
               <div className="offset-lg-2 col-lg-5">
-                <div className="tainer-flex d-flex align-items-center justify-content-center" onClick={() =>navigate("/tainerInformation")}>
+                <div className="tainer-flex d-flex align-items-center justify-content-center" onClick={() =>navigate(`/tainerInformation/${_id}`)}>
                   <img src={tainer?.tainerImg} alt="" />
                   <span className="ms-4">
                     <h4 className="tainer-main-title">{tainer?.tainerName}</h4>
