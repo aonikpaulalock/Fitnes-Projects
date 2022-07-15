@@ -2,7 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import BlogsDetailsBanner from './BlogsDetailsBanner';
 import BlogsDetailsText from './BlogsDetailsText';
-
+import BlogsTainerDetails from './BlogsTainerDetails';
+import Tricks from '../Home/Tricks';
+import Sliders from '../Home/Sliders';
+import BlogsTainerInformation from './BlogsTainerInformation';
 const BlogsDetails = () => {
   const { id } = useParams()
   const [detailsBlogs, setDetailsBlogs] = useState({})
@@ -19,6 +22,10 @@ const BlogsDetails = () => {
     <>
       <BlogsDetailsBanner detailsBlogs={detailsBlogs}/>
       <BlogsDetailsText detailsBlogs={detailsBlogs} />
+      <BlogsTainerDetails detailsBlogs={detailsBlogs} />
+      <Tricks/>
+      <Sliders/>
+      <BlogsTainerInformation detailsBlogs={detailsBlogs}/>
     </>
   );
 };

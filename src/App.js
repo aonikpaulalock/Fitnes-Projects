@@ -9,6 +9,7 @@ import ServicesPage from './Pages/Services/ServicesPage';
 import ServiceDetailsPage from './Pages/ServiceDetailsPage/ServiceDetailsPage';
 import Blogs from './Pages/Blogs/Blogs';
 import BlogsDetails from './Pages/BlogsDetails/BlogsDetails';
+import BlogsTainerInformation from './Pages/BlogsDetails/BlogsTainerInformation';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/serviceDetails/:id" element={<ServiceDetailsPage/>}></Route>
         <Route path="/blogs" element={<Blogs/>}></Route>
         <Route path="/blogsDetails/:id" element={<BlogsDetails/>}></Route>
+        <Route path="/tainerInformation" element={<BlogsTainerInformation/>}></Route>
       </Routes>
       <Footer/>
     </>

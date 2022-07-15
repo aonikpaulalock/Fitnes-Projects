@@ -1,0 +1,65 @@
+.tainer-rectangle {
+  background-color:#F8F7FC;
+  width: 920px;
+  height: 279px;
+  margin-top: 60px;
+}
+
+.tainer-details-content {
+  width: 730px;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+  margin: -160px auto 0 auto;
+}
+
+.tainer-flex {
+  padding: 55px 0 0 0 ;
+}
+
+.tainer-flex img {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.tainer-flex span {
+  cursor: pointer;
+}
+
+
+.tainer-main-title {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 2px;
+  margin-bottom: 0;
+}
+
+.tainer-sub-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+.tainer-details-feedback {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  padding: 38px 52px 60px 52px;
+  color: var(--first-secondary-color);
+  margin-bottom: 50px;
+
+}
+.svg-position {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  transform: translate(-50%,50%);
+  cursor: pointer;
+}

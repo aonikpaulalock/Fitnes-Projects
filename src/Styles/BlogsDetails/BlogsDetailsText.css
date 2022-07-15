@@ -2,11 +2,38 @@
   margin-bottom: 127px;
   position: relative;
 }
+
 .image-container img {
   margin-top: -43%;
 }
+
 .inside-image-position {
   position: absolute;
   bottom: -70px;
   right: -35px;
+}
+
+.blogs-details-heading {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: #0A071B;
+  margin: 15px 0 43px 0;
+}
+
+.text-content p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 30px;
+  color: var(--first-secondary-color);
+}
+
+.image-margin {
+  display: block;
+  margin: 50px auto;
 }

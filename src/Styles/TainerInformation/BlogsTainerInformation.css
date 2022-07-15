@@ -1,0 +1,14 @@
+.Blogs-Tainer-Information {
+  background-color: var(--first-primary-color);
+  height: 300px;
+}
+
+.Blogs-Information {
+  width: 730px;
+  height: 636px;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: -120px;
+}
