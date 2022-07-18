@@ -5,7 +5,7 @@ import "../Styles/Header.css"
 const Header = () => {
   const navigate = useNavigate()
   return (
-    <Navbar expand="lg" className="nav-bg sticky-top">
+    <Navbar expand="lg" className="nav-bg">
       <Container>
         <Navbar.Brand href="#" className="nav-heading text-white">
           Everest

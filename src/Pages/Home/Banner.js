@@ -9,21 +9,21 @@ const Banner = () => {
     <div className="banner-bg">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 col-md-12 order-2 order-lg-1">
             <div>
-              <div>
+              <div className="home-banner-content">
                 <h4 className="banner-sub-heading">EVEREST</h4>
                 <h1 className="banner-main-heading">The ultimate online personal training plans!</h1>
-                <div className='d-flex button-gap'>
+                <div className='button-gap button-rexponsive'>
                   <button className="Book-button" onClick={()=>navigate("/contactPage")}>Book A Class</button>
                   <button className="About-button">About us</button>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-lg-5 offset-lg-1">
-            <div>
-              <img src={banner} alt=""/>
+          <div className="col-lg-6  col-md-12 order-1 order-lg-2">
+            <div className="banner-image">
+              <img src={banner} alt="" className=""/>
             </div>
           </div>
         </div>

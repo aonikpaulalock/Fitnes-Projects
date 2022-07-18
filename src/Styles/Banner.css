@@ -24,3 +24,43 @@
 .button-gap {
   margin-top: 65px;
 }
+
+
+/* Media qureis */
+@media (max-width:635px) {
+  .banner-image img {
+    width: 100%;
+  }
+
+  .banner-main-heading {
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+  }
+
+  .banner-sub-heading {
+    text-align: center;
+  }
+
+  .button-gap {
+    margin-top: 45px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-banner-content {
+    padding: 35px;
+  }
+}
+
+@media (max-width:582px) {
+  .banner-main-heading {
+    font-size: 43px;
+  }
+  .home-banner-content {
+    padding: 25px;
+  }
+
+}

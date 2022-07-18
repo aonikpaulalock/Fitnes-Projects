@@ -1,7 +1,6 @@
-
 .reviews-posion {
   position: absolute;
-  background-color:  #F8F7FC;
+  background-color: #F8F7FC;
   width: 920px !important;
   height: 398px;
   z-index: -1;
@@ -41,4 +40,12 @@
   line-height: 32px;
   color: #BCB8D0;
   margin-bottom: 0;
+}
+
+/* Media Quary */
+@media (max-width:1100px) {
+  .reviews-posion {
+    width: 500px!important;
+    height: auto;
+  }
 }

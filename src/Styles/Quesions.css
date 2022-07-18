@@ -74,3 +74,11 @@
   color: #BCB8D0;
   padding-left: 8px;
 }
+
+/* Media Quares */
+@media (max-width:815px) {
+  .Question {
+    width: 500px;
+    height: auto;
+  }
+}
