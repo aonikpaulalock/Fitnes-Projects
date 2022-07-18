@@ -62,4 +62,15 @@
   margin: 0 auto;
   transform: translate(-50%,50%);
   cursor: pointer;
+  transition: all .5s linear;
+}
+.svg-facebook:hover {
+  color: #3b5998;
+}
+.svg-twitter:hover {
+  color: #00acee;
+
+}
+.svg-instagram:hover {
+  color:  #E4405F;
 }

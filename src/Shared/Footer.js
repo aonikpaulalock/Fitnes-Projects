@@ -9,11 +9,11 @@ const Footer = () => {
             <h1 className="footer-heading">Everst</h1>
             <div className="footer-sub-heading">
             <span>Home</span>
-            <span>Home</span>
-            <span>Home</span>
-            <span>Home</span>
-            <span>Home</span>
-            <span>Home</span>
+            <span>About</span>
+            <span>Classes</span>
+            <span>Blog</span>
+            <span>Schudule</span>
+            <span>Contact</span>
             </div>
           </div>
         </div>

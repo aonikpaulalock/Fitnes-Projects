@@ -10,6 +10,8 @@ import ServiceDetailsPage from './Pages/ServiceDetailsPage/ServiceDetailsPage';
 import Blogs from './Pages/Blogs/Blogs';
 import BlogsDetails from './Pages/BlogsDetails/BlogsDetails';
 import BlogsTainerInformation from './Pages/BlogsDetails/BlogsTainerInformation';
+import Contact from './Pages/Contactpage/Contact';
+import ContactSuccessPage from './Pages/ContactSuccessPage/ContactSuccessPage';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route path="/blogs" element={<Blogs/>}></Route>
         <Route path="/blogsDetails/:id" element={<BlogsDetails/>}></Route>
         <Route path="/tainerInformation/:id" element={<BlogsTainerInformation/>}></Route>
+        <Route path="/contactPage" element={<Contact/>}></Route>
+        <Route path="/contactSuccessPage" element={<ContactSuccessPage/>}></Route>
       </Routes>
       <Footer/>
     </>

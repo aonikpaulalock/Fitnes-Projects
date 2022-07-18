@@ -1,0 +1,6 @@
+.success-container {
+  background-color: var(--first-primary-color);
+  padding-bottom: 150px;
+  z-index: -2;
+  position: relative;
+}

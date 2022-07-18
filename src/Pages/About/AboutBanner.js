@@ -1,7 +1,9 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import shape from "../../Asset/Banner/Shape.png"
 import "../../Styles/Aboutpages/AboutBanner.css"
 const AboutBanner = () => {
+  const navigate = useNavigate()
   return (
     <div className="container-fluid About-page">
       <div className="container">
@@ -14,7 +16,7 @@ const AboutBanner = () => {
               </h1>
             </div>
             <div className="d-flex button-gap justify-content-center align-items-center">
-              <button className="Book-button">Book A Class</button>
+              <button className="Book-button" onClick={()=>navigate("/contactPage")}>Book A Class</button>
               <button className="About-button about-page-button">Our Services</button>
             </div>
           </div>

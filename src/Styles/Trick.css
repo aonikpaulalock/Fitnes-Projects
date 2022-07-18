@@ -18,7 +18,12 @@
   padding: 22px;
   margin-bottom: 190px;
 }
-
+.scale-image img:hover{
+ transform: scale(.9);
+ overflow: hidden;
+ transition: transform .8s linear;
+ cursor: pointer;
+}
 .trick-name {
   font-family: 'Inter';
   font-style: normal;

@@ -1,47 +1,4 @@
-// import React from "react";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-// import Slider from "react-slick";
-// import "../../Styles/Sliders.css"
-// const Sliders = () => {
-//   const settings = {
-//     infinite: true,
-//     slidesToShow: 3,
-//     speed: 5000,
-//     focusOnSelect: true,
-//     slickNext: true,
-//     slidesToScroll: 1
-//   };
-//   return (
-//     <div className="container-fluid">
-//       <h2 className="slider-heading">Follow me on Instagram</h2>
-//       <Slider {...settings} className="container-fluid">
-//         <div className="image-gap">
-//           <img src="https://i.ibb.co/vQngBL0/slider-1.png" alt="" />
-//         </div>
-//         <div className="image-gap">
-//           <img src="https://i.ibb.co/BnxhmpJ/slider-2.png" alt="" />
-//         </div>
-//         <div className="image-gap col-lg-4">
-//           <img src="https://i.ibb.co/MVsw4kn/slider-3.png" alt="" />
-//         </div>
-//         <div className="image-gap col-lg-4">
-//           <img src="https://i.ibb.co/wYQQScL/slider-4.png" alt="" />
-//         </div>
-//         <div className="image-gap col-lg-4">
-//           <img src="https://i.ibb.co/BnxhmpJ/slider-2.png" alt="" />
-//         </div>
-//         <div className="image-gap col-lg-4">
-//           <img src="https://i.ibb.co/wYQQScL/slider-4.png" alt="" />
-//         </div>
-//       </Slider>
-//     </div>
-//   );
-// };
-
-// export default Sliders;
-
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

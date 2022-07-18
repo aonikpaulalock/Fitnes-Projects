@@ -1,0 +1,139 @@
+.contact-form {
+  width: 923px;
+  height: 716px;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+  margin-top: -63%;
+  margin-bottom: 190px;
+  position: relative;
+}
+
+.contact-shape-position {
+  position: absolute;
+  right: -35px;
+  bottom: -55px;
+  z-index: -1;
+}
+
+.form-container {
+  padding-left: 95px;
+}
+
+.form-heading {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #0A071B;
+  padding-bottom: 40px;
+  padding-top: 59px;
+}
+
+.form-group {
+  margin-right: 30px !important;
+  margin-bottom: 30px !important;
+}
+
+.form-group label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0A071B;
+  margin-bottom: 11px;
+}
+
+.form-group textarea::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #C4C4C4;
+  padding: 4px;
+}
+
+.form-group textarea {
+  width: 735px !important;
+  height: 130px !important;
+  border: 1px solid #C4C4C4 !important;
+  border-radius: 5px !important;
+}
+
+.form-group input::placeholder {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #C4C4C4;
+  padding: 4px;
+}
+
+.form-group input {
+  width: 350px !important;
+  height: 56px !important;
+  border: 1px solid #C4C4C4 !important;
+  border-radius: 5px !important;
+  font-weight: 600 !important;
+}
+
+.form-group input:focus {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+.form-group textarea:focus {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+/* =========  SuccesFull-Container-style ========== */
+.successfull-container {
+  width: 923px;
+  height: 307px;
+  background: #FFFFFF;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+  margin-top: -180px;
+  padding-left: 95px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.success-form-shape {
+  position: absolute;
+  right: -35px;
+  bottom: -65px;
+  z-index: -1;
+}
+
+.message-container {
+  width: 752px;
+  height: 75px;
+  background: #F58859;
+  border-radius: 5px;
+}
+
+.succes-tittle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  height: 100%;
+}
+.message-container {
+  position: relative;
+}
+.image-sucees {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

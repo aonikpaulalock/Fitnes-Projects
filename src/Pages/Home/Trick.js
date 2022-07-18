@@ -7,7 +7,7 @@ const Trick = ({ trick }) => {
   return (
     <div className="col-lg-4">
       <div className="position-container">
-        <div>
+        <div className="scale-image">
           <img src={frontImg} alt="" />
         </div>
         <div className="tricks-card">

@@ -1,8 +1,10 @@
 import React from 'react';
 import "../../Styles/ServicesDetails/ServicesDetailsBanner.css"
 import shape from "../../Asset/Banner/Shape.png"
+import { useNavigate } from 'react-router-dom';
 const ServicesDetailsBanner = ({ detailsServices }) => {
   const { Degi, name, des } = detailsServices;
+  const navigate = useNavigate()
   return (
     <div className="container-fluid servicesDetails-Container">
       <div className="container">
@@ -15,7 +17,7 @@ const ServicesDetailsBanner = ({ detailsServices }) => {
               </h1>
               <p className="servicesDetails-main-peragraph">{des}</p>
               <div className="d-flex button-gap justify-content-center align-items-center">
-                <button className="Book-button">Book A Class</button>
+                <button className="Book-button" onClick={() => navigate("/contactPage")}>Book A Class</button>
                 <button className="About-button about-page-button">Our Services</button>
               </div>
             </div>

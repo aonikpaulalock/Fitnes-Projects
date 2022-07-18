@@ -1,0 +1,37 @@
+.contact-banner-container {
+  background-color: var(--first-primary-color);
+  z-index: -2;
+  position: relative;
+  padding-bottom: 560px;
+}
+
+.contact-sub-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #BCB8D0;
+  padding-top: 127px;
+}
+
+.contact-main-heading {
+  font-family: 'Dela Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 93px;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  z-index: 2;
+  padding: 16px 0 72px 0;
+}
+
+.contact-position-image {
+  position: absolute;
+  top: 150px;
+  left: 257px;
+  z-index: 1;
+}

@@ -1,8 +1,9 @@
 import React from 'react';
 import { Nav, Navbar, Container } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import "../Styles/Header.css"
 const Header = () => {
+  const navigate = useNavigate()
   return (
     <Navbar expand="lg" className="nav-bg sticky-top">
       <Container>
@@ -20,10 +21,10 @@ const Header = () => {
             <Nav.Link to="/aboutpage" as={Link} className="nav-anchor">About</Nav.Link>
             <Nav.Link to="/servicePages" as={Link} className="nav-anchor">Services</Nav.Link>
             <Nav.Link to="/blogs" as={Link} className="nav-anchor">Blogs</Nav.Link>
-            <Nav.Link to="#" as={Link} className="nav-anchor">Contact</Nav.Link>
+            <Nav.Link to="/contactPage" as={Link} className="nav-anchor">Contact</Nav.Link>
           </Nav>
           <div>
-            <button className="share-button">Book Class</button>
+            <button className="share-button" onClick={()=>navigate("/contactPage")}>Book Class</button>
           </div>
         </Navbar.Collapse>
       </Container>

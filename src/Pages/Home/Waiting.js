@@ -1,8 +1,10 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import shape from "../../Asset/Banner/Shape.png"
 import image from "../../Asset/Waiting/victor.png"
 import "../../Styles/Waiting.css"
 const Waiting = () => {
+  const navigate = useNavigate()
   return (
     <div className="waiting container">
       <div className="row">
@@ -12,7 +14,7 @@ const Waiting = () => {
               <img src={shape} alt="" className='waiting-satting' />
             </h1>
             <p className="waiting-sub-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Porttitor et, ultrices fermentum felis pretium. Vel ut sed aliquam dictum mattis faucibus. Varius eu dapibus donec amet. Mauris sit mi nullam tortor.</p>
-            <button className="wating-button">Book A Class</button>
+            <button className="wating-button" onClick={() => navigate("/contactPage")}>Book A Class</button>
           </div>
         </div>
         <div className="col-lg-6">

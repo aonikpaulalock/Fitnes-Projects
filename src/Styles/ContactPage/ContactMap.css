@@ -1,0 +1,16 @@
+.contact-map-information {
+  background: #F8F7FC;
+  padding: 45px;
+  width: 1110px;
+  margin-top: 150px;
+ 
+}
+.contact-map-information h6 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 0;
+}

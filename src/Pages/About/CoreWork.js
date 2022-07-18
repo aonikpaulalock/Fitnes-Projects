@@ -2,12 +2,14 @@ import React from 'react';
 import image from "../../Asset/About/Core-Work-Map/map.png";
 import "../../Styles/Aboutpages/CoreWork.css"
 import shape from "../../Asset/About/Core-Work-Map/core1.png"
+import { useNavigate } from 'react-router-dom';
 const tainers = [
   { id: 1, name: "Certified trainer", des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea natus sunt quaerat veniam fuga consequatur?", img: "https://i.ibb.co/b561rtS/tainning1.png" },
   { id: 2, name: "Nutrition & diet", des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea natus sunt quaerat veniam fuga consequatur?", img: "https://i.ibb.co/rwC791V/taining2.png" },
   { id: 3, name: "Years of experience", des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea natus sunt quaerat veniam fuga consequatur?", img: "https://i.ibb.co/1TttFXJ/taining3.png" }
 ]
 const CoreWork = () => {
+  const navigate = useNavigate()
   return (
     <div>
       <div className="container">
@@ -22,7 +24,7 @@ const CoreWork = () => {
               </h1>
             </div>
             <div className="w-50 d-flex align-items-end justify-content-end">
-              <button className="About-button about-page-button ms-0">Book A Class</button>
+              <button className="About-button about-page-button ms-0" onClick={() => navigate("/contactPage")}>Book A Class</button>
             </div>
           </div>
           <div className="row core-service-gap">

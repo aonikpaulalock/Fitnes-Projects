@@ -20,7 +20,7 @@ const Tricks = () => {
         <div className="row">
           {
             tricks.map(trick => <Trick
-              key={trick.id}
+              key={trick._id}
               trick={trick}
             ></Trick>)
           }
