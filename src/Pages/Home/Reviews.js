@@ -16,13 +16,13 @@ const Reviews = () => {
   return (
     <div className="reviews">
       <div className="container">
-        <div className="reviews-content d-flex justify-content-center align-items-between mt-5">
-          <div className='col-lg-5'>
+        <div className="reviews-content d-flex justify-content-center align-items-between mt-5 row">
+          <div className='col-lg-5 col-md-12'>
             <h1 className="reviews-heding service-heading">What my clients say about me?
               <img src={shape} alt="" className='shape-satting' />
             </h1>
           </div>
-          <div className='col-lg-4 offset-lg-3 d-flex justify-content-center align-items-center'>
+          <div className='col-lg-4 offset-lg-3 col-md-12 d-lg-flex justify-content-lg-center align-items-lg-center'>
             <button className="reviews-button" onClick={() => navigate("/contactPage")}>Book A Class</button>
           </div>
         </div>

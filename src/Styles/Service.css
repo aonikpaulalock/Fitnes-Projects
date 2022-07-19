@@ -27,3 +27,18 @@
   color: var(--first-primary-color);
   cursor: pointer;
 }
+
+/* Media Quries */
+@media (max-width:990px) {
+  .nagative-image {
+    margin-bottom: 0px;
+  }
+
+  .about-image img {
+    width: 100%;
+  }
+
+  .about-heading {
+    padding: 0px 40px 50px 40px;
+  }
+}

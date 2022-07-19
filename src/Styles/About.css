@@ -1,10 +1,12 @@
 .about-bg {
   background-color: #0A071B;
-  padding-top: 200px;
+  padding-top: 100px;
 }
+
 .nagative-image {
   margin-bottom: -240px;
 }
+
 .about-main {
   font-family: 'Dela Gothic One';
   font-style: normal;
@@ -23,4 +25,18 @@
   line-height: 32px;
   color: #BCB8D0;
   margin-bottom: 35px;
+}
+
+/* Media Quries */
+@media (max-width:990px) {
+  .nagative-image {
+    margin-bottom: 0px;
+  }
+
+  .about-image img {
+    width: 100%;
+  }
+  .about-heading {
+    padding: 0px 40px 50px 40px;
+  }
 }

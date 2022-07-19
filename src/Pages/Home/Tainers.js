@@ -20,7 +20,7 @@ const Tainers = () => {
               <img src={shape} alt="" className='Taining-satting' />
             </h1>
           </div>
-          <div className="w-50 d-flex align-items-end justify-content-end">
+          <div className="w-50 d-flex align-items-md-end justify-content-md-end">
             <button className="About-button ms-0">Learn More</button>
           </div>
         </div>

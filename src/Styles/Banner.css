@@ -27,11 +27,13 @@
 
 
 /* Media qureis */
-@media (max-width:635px) {
+@media (max-width:990px) {
   .banner-image img {
     width: 100%;
   }
+}
 
+@media (max-width:635px) {
   .banner-main-heading {
     font-size: 50px;
     line-height: 70px;
@@ -56,9 +58,13 @@
 }
 
 @media (max-width:582px) {
+  .banner-bg {
+    padding-top: 30px;
+  }
   .banner-main-heading {
     font-size: 43px;
   }
+
   .home-banner-content {
     padding: 25px;
   }

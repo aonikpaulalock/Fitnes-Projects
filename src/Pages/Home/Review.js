@@ -5,7 +5,7 @@ const Review = ({ review }) => {
   return (
     <>
       <div className="reviews-posion"></div>
-      <div className="col-lg-4 g-4">
+      <div className="col-lg-4 g-4 col-md-6">
         <div className="reviews-inner">
           <div className="card-body">
             <p className="review-text">{des}</p>

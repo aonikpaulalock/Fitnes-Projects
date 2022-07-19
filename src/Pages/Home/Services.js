@@ -5,7 +5,7 @@ import ShareService from './ShareService';
 const Services = () => {
   return (
     <div className="container service">
-      <div className="col-md-5">
+      <div className="col-lg-5 col-md-8">
         <div className='shape-content'>
           <h1 className="service-heading">Services
             <img src={shape} alt="" className='shape-satting' />

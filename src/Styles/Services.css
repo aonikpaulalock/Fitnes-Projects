@@ -12,7 +12,7 @@
   color: #0A071B;
   margin-bottom: 30px;
   position: relative;
- 
+
 }
 
 .shape-satting {
@@ -29,4 +29,13 @@
   font-size: 16px;
   line-height: 32px;
   color: #5B5675;
+}
+
+/* Media Quries */
+@media (max-width:990px) {
+  .service {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+
 }
