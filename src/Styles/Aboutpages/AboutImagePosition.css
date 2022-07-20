@@ -19,6 +19,7 @@
   position: relative;
   z-index: 2;
 }
+
 .banner-satting {
   position: absolute;
   top: -22px;
@@ -38,10 +39,12 @@
 .banner-image-top {
   margin-top: 125px;
 }
+
 .banner-image-position1 {
   position: relative;
   z-index: 2;
 }
+
 .shape-position {
   position: absolute;
   top: 230px;
@@ -63,4 +66,44 @@
   top: 365px;
   left: -26px;
   z-index: -1;
+}
+
+
+@media (max-width:1000px) {
+  .banner-image-top {
+    width: 100%;
+  }
+
+  .banner-image-bottom {
+    width: 100%;
+  }
+
+  .banner-image-bottom {
+    margin-top: 30px;
+  }
+
+  .banner-image-top {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+
+  .shape-position2 {
+    display: none;
+  }
+
+  .shape-position {
+    display: none;
+  }
+
+}
+
+@media (max-width:530px)and (min-width:300px) {
+  .banner-satting {
+    top: 0px;
+    left: 0px;
+  }
+  .banner-image-position {
+    width: 100%;
+  }
+
 }

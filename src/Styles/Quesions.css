@@ -76,9 +76,30 @@
 }
 
 /* Media Quares */
-@media (max-width:815px) {
+@media (max-width:815px) and (min-width:520px) {
   .Question {
     width: 500px;
     height: auto;
   }
+
+  .quesion-heading {
+    font-size: 40px;
+  }
 }
+
+@media (max-width:519px) and (min-width:320px) {
+  .Question {
+    width: 100%;
+    height: 100%;
+  }
+
+  .quesion-heading {
+    font-size: 35px;
+  }
+}
+@media (max-width:575px){
+  .quesion-heading {
+    font-size: 30px;
+  }
+}
+

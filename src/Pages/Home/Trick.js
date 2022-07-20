@@ -5,15 +5,15 @@ const Trick = ({ trick }) => {
   const navigate = useNavigate()
   const { _id, frontImg, tainer, name, mainheading } = trick;
   return (
-    <div className="col-lg-4">
+    <div className="col-lg-4 col-md-6 col-12 gap-4">
       <div className="position-container">
         <div className="scale-image">
-          <img src={frontImg} alt="" />
+          <img src={frontImg} alt="" className="" />
         </div>
         <div className="tricks-card">
           <div className="tricks-card-body">
             <div className="d-flex align-items-center tainer-cursor" onClick={() => navigate(`/tainerInformation/${_id}`)}>
-              <img src={tainer.tainerImg} alt="" />
+              <img src={tainer.tainerImg} alt="" className="img-fluid" />
               <h5 className="trick-name ms-4 mb-0">{tainer.tainerName}</h5>
             </div>
             <h6 className="taining">{name}</h6>

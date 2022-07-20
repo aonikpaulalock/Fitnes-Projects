@@ -14,10 +14,10 @@ const Tricks = () => {
   return (
     <div className="container">
       <div className="tricks-container">
-        <h1 className="tricks-heading service-heading">Read our tips and <br /> tricks
+        <h1 className="tricks-heading">Read our tips and <br /> tricks
           <img src={shape} alt="" className='tricks-shape' />
         </h1>
-        <div className="row">
+        <div className="row grid-container">
           {
             tricks.map(trick => <Trick
               key={trick._id}

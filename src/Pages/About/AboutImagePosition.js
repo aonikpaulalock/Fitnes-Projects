@@ -11,22 +11,22 @@ const AboutImagePosition = () => {
       <div className="container">
         <div className="banner-image-container">
           <div className="banner-image-position">
-            <img src={bannerImage} alt="" />
+            <img src={bannerImage} alt="" className="img-fluid" />
           </div>
           <div className="about-content-container">
             <div className="row">
               <div className="col-lg-3">
                 <div className="row">
                   <div className="banner-image-position1">
-                    <img src={about1} alt="" className="banner-image-top" />
-                    <img src={shape1} alt="" className="shape-position" />
+                    <img src={about1} alt="" className="banner-image-top img-fluid" />
+                    <img src={shape1} alt="" className="shape-position img-fluid" />
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 offset-lg-1">
                 <div className="row">
                   <div className="col-lg-12">
-                    <h1 className="banner-content">About Max Ganes ?
+                    <h1 className="banner-content p-3">About Max Ganes ?
                       <img src={shape} alt="" className="banner-satting" />
                     </h1>
                     <div className="row-content">

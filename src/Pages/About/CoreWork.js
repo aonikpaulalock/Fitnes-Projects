@@ -14,27 +14,27 @@ const CoreWork = () => {
     <div>
       <div className="container">
         <div className="core-work-image-container">
-          <img src={image} alt="" className="core-work-image" />
+          <img src={image} alt="" className="img-fluid"/>
         </div>
         <div>
-          <div className="d-flex align-items-center justify-content-between">
-            <div className="w-50">
+          <div className="core-heading-content row">
+            <div className="col-md-6">
               <h1 className="core-work-heading">My core work values
-                <img src={shape} alt="" className='Taining-satting' />
+                <img src={shape} alt="" className="core-satting" />
               </h1>
             </div>
-            <div className="w-50 d-flex align-items-end justify-content-end">
+            <div className="col-md-6 d-flex justify-content-md-end align-items-center mt-3 mt-md-0">
               <button className="About-button about-page-button ms-0" onClick={() => navigate("/contactPage")}>Book A Class</button>
             </div>
-          </div>
+        </div>
           <div className="row core-service-gap">
             {
               tainers.map(tainer => <div
                 key={tainer.id}
-                className="col-lg-4"
+                className="col-lg-4 col-md-6 col-12"
               >
                 <div className="core-background">
-                  <img className="ms-3 mt-4" src={tainer.img} alt="" height={48} width={48} />
+                  <img className="img-fluid" src={tainer.img} alt="" height={48} width={48} />
                   <div className="card-body">
                     <h5 className="core-heading mb-3">{tainer.name}</h5>
                     <p className="core-sub-heading">{tainer.des}</p>

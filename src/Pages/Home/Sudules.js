@@ -97,7 +97,6 @@ const Sudules = () => {
                 <th>Friday</th>
                 <th>Saturday</th>
                 <th>Sunday</th>
-                {/* <th>Update</th> */}
               </tr>
             </thead>
             <tbody>

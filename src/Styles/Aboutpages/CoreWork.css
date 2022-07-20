@@ -1,9 +1,11 @@
 .core-work-back {
   background: #f5f4f4;
 }
+
 .core-service-gap {
   margin: 60px 0;
 }
+
 .core-work-image-container {
   margin: -28% 0 90px 0;
 }
@@ -23,6 +25,7 @@
   background-color: #ffffff;
   border-radius: 5px;
   padding: 15px;
+  margin-bottom: 15px;
 }
 
 .core-heading {
@@ -41,4 +44,26 @@
   font-size: 16px;
   line-height: 32px;
   color: #5B5675;
+}
+
+.core-satting {
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
+}
+
+@media (max-width:624px) {
+  .core-satting {
+    position: absolute;
+    top: -15px;
+    left: -10px;
+  }
+
+  .core-heading-content {
+    padding: 20px;
+  }
+  .core-work-image-container {
+    margin: -28% 0 50px 0;
+  }
 }

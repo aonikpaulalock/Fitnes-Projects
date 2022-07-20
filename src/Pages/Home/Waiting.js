@@ -8,7 +8,7 @@ const Waiting = () => {
   return (
     <div className="waiting container">
       <div className="row">
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-md-12 order-2 order-lg-1">
           <div className="wating-content">
             <h1 className="waiting-heading">What are you waiting for?
               <img src={shape} alt="" className='waiting-satting' />
@@ -17,7 +17,7 @@ const Waiting = () => {
             <button className="wating-button" onClick={() => navigate("/contactPage")}>Book A Class</button>
           </div>
         </div>
-        <div className="col-lg-6">
+        <div className="col-lg-6 col-md-12 order-1 order-lg-2">
           <div className="wating-image">
             <img src={image} alt="" />
           </div>

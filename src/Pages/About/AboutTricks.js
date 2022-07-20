@@ -46,7 +46,7 @@ const AboutTricks = () => {
       <div className="tricks-container">
         <div className="About-Tricks-Position">
           <h1 className="About-Tricks tricks-heading">Read our tips and <br /> tricks
-            <img src={shape} alt="" className="about-tricks-shape" />
+            <img src={shape} alt="" className="about-tricks-shape img-fluid" />
           </h1>
         </div>
         <div className="row about-tricks">

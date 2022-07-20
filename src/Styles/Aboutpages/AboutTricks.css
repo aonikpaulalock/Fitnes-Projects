@@ -80,7 +80,59 @@
   line-height: 32px;
   margin-bottom: 6px;
 }
+
 .about-border-line {
   border: 1px solid #E1DFEC;
   margin: 27px 0 20px 0;
+}
+
+
+@media (max-width:760px) {
+  .about-tricks-shape{
+      position: absolute;
+      top: -20px;
+      left: 0px;
+      z-index: -1;
+  }
+  .tricks-card {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -65%;
+  }
+
+  .scale-image img {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width:1207px) and (min-width:759px) {
+  .about-tricks-shape {
+    position: absolute;
+    top: -25px;
+    left: 160px;
+    z-index: -1;
+  }
+  .tricks-card {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: -65%;
+  }
+
+  .scale-image img {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width:454px) and (min-width:300px) {
+  .tricks-card {
+    margin-top: -90%;
+  }
+  .tricks-card-body {
+    padding: 16px;
+}
+.about-border-line {
+  margin: 15px 0 12px 0;
+}
+
 }

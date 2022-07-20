@@ -35,9 +35,11 @@
   color: #FFFFFF;
   margin-bottom: 0px;
 }
+
 .happy-client-padding {
   padding-bottom: 300px;
 }
+
 .tainer-details {
   font-family: 'Inter';
   font-style: normal;
@@ -47,6 +49,56 @@
   color: #BCB8D0;
   margin: 24px 0 0 0;
 }
+
 .client-details {
   margin-bottom: 138px;
+}
+
+
+/* Media quries */
+
+@media (max-width:1100px)and (min-width:1000px) {
+  .client-image-top {
+    margin: 0;
+  }
+  .happy-client-padding {
+    padding-bottom: 200px;
+  }
+}
+
+@media (max-width:999px)and (min-width:320px) {
+  .client-image-top {
+    margin: 0;
+    display: none;
+  }
+  .happy-client-padding {
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width:530px)and (min-width:300px) {
+  .Client-image-position {
+    top: 40px;
+    left: 0px;
+  }
+
+  .client-image-top {
+    margin: 0;
+    display: none;
+  }
+
+  .client-heading {
+    font-size: 40px;
+    line-height: 58px;
+    padding: 46px 10px;
+  }
+
+  .client-details {
+    margin-bottom: 38px;
+    text-align: center;
+  }
+  .happy-client-padding {
+    padding-bottom: 100px;
+  }
+
 }

@@ -16,14 +16,18 @@
 
 .tricks-card-body {
   padding: 22px;
-  margin-bottom: 190px;
+  width: 100%;
 }
-.scale-image img:hover{
- transform: scale(.9);
- overflow: hidden;
- transition: transform .8s linear;
- cursor: pointer;
+.scale-image{
+  overflow: hidden;
 }
+.scale-image img:hover {
+  transform: scale(1.1);
+  overflow: auto;
+  transition: transform .8s linear;
+  cursor: pointer;
+}
+
 .trick-name {
   font-family: 'Inter';
   font-style: normal;
@@ -44,9 +48,11 @@
   text-align: left !important;
   margin: 36px 0 22px 0;
 }
-.tainer-cursor{
+
+.tainer-cursor {
   cursor: pointer;
 }
+
 .taining-details {
   font-family: 'Dela Gothic One';
   font-style: normal;
@@ -60,3 +66,4 @@
   border: 1px solid #E1DFEC;
   margin: 29px 0 22px 0;
 }
+

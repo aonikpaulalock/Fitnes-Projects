@@ -1,9 +1,11 @@
 .About-page {
   background-color: var(--first-primary-color);
 }
+
 .aboutpage-content {
   padding-bottom: 400px;
 }
+
 .aboutpage-title {
   font-family: 'Inter';
   font-style: normal;
@@ -32,4 +34,47 @@
   top: -15px;
   left: -25px;
   z-index: -1;
+}
+
+
+@media (max-width:994px){
+  .aboutpage-content {
+    padding-bottom: 250px;
+  }
+}
+@media (max-width:768px) {
+  .aboutpage-content {
+    padding-bottom: 200px;
+  }
+  .aboutpage-main-title {
+    font-size: 58px;
+    line-height: 83px;
+  }
+
+  .aboutpage-title {
+    margin: 60px 0 16px 0;
+  }
+}
+
+@media (max-width:530px)and (min-width:300px) {
+  .aboutpage-main-title {
+    font-size: 48px;
+    line-height: 63px;
+  }
+
+  .about-shape-position {
+    top: -15px;
+    left: -6px;
+  }
+
+  .aboutpage-title {
+    margin: 40px 0 16px 0;
+  }
+
+  .button-gap {
+    display: block;
+  }
+  .aboutpage-content {
+    padding-bottom: 150px;
+  }
 }
