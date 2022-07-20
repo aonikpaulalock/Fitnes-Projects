@@ -2,6 +2,7 @@
   background-color: var(--first-primary-color);
   padding: 70px 0px;
 }
+
 .Taining-heading {
   color: white;
   font-family: 'Dela Gothic One';
@@ -12,12 +13,14 @@
   position: relative;
   z-index: 2;
 }
+
 .Taining-satting {
   position: absolute;
   top: -15px;
   left: -40px;
   z-index: -1;
 }
+
 .tainer-service-gap {
   margin-bottom: 120px;
   padding-top: 20px;
@@ -28,5 +31,10 @@
   .tainer-service-gap {
     margin-bottom: 60px;
     padding-top: 10px;
+  }
+
+  .Taining-satting {
+    top: -20px;
+    left: -15px;
   }
 }

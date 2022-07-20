@@ -14,13 +14,13 @@ const Tainers = () => {
   return (
     <div className='tainers'>
       <div className="container">
-        <div className="d-flex align-items-center justify-content-between tainer-service-gap">
-          <div className="tainer-content w-50">
+        <div className="row px-4 py-4">
+          <div className="col-md-6">
             <h1 className="Taining-heading">Taining Summary
               <img src={shape} alt="" className='Taining-satting' />
             </h1>
           </div>
-          <div className="w-50 d-flex align-items-md-end justify-content-md-end">
+          <div className="col-md-6 d-flex justify-content-md-end align-items-center mt-3 mt-md-0">
             <button className="About-button ms-0">Learn More</button>
           </div>
         </div>

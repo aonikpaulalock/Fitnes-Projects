@@ -16,7 +16,7 @@ const Reviews = () => {
   return (
     <div className="reviews">
       <div className="container">
-        <div className="reviews-content d-flex justify-content-center align-items-between mt-5 row">
+        <div className="row container">
           <div className='col-lg-5 col-md-12'>
             <h1 className="reviews-heding service-heading">What my clients say about me?
               <img src={shape} alt="" className='shape-satting' />

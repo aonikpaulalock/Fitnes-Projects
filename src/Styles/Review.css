@@ -58,8 +58,8 @@
   }
 }
 
-/* @media (max-width:770px) and (min-width:280px) {
-  .reviews-posion {
-    width: 0;
+@media (max-width:550px) and (min-width:300px) {
+  .review-text {
+    padding: 0px;
   }
-} */
+}

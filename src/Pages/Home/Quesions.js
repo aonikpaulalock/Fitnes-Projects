@@ -17,7 +17,7 @@ const Quesions = () => {
                 <button className="accordion-button collapsed collapse-design show" data-bs-toggle="collapse" data-bs-target="#collapseOne">Can your program be taken online ?</button>
               </h2>
               <div id="collapseOne" className="accordion-collapse collapse " data-bs-parent="#myAccordion">
-                <div className="card-body w-sm-50 w-100">
+                <div className="card-body w-xs-100 w-lg-100">
                   <p className="accordion-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis et egestas feugiat. Vel semper sed dignissim proin nisi velit ultrices amet.</p>
                 </div>
               </div>

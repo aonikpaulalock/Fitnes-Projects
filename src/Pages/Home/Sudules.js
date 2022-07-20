@@ -82,7 +82,7 @@ const sudules = [
 ]
 const Sudules = () => {
   return (
-    <div className="table-container">
+    <div className="table-container container">
       <h1 className="schedule-main-heading">Classes Schedule</h1>
       <div className="container">
         <div className="table-responsive">
