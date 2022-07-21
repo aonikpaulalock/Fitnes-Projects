@@ -110,7 +110,7 @@
 }
 
 
-@media (max-width:400px) {
+@media (max-width:430px) {
   .Book-button {
     width: 100%;
     height: 53px;
@@ -134,4 +134,8 @@
     width: 100%;
     height: 50px;
   }
+  .details-book-button {
+    width: 80%;
+    height: 52px;
+}
 }

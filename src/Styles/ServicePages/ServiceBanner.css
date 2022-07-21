@@ -46,39 +46,53 @@
 @media (max-width:816px) and (min-width:540px) {
   .service-shape {
     position: absolute;
-    top: 280px;
+    top: 210px;
     left: -100px;
+  }
+
+  .servicesPage-content {
+    padding: 90px 0px;
   }
 }
 
 @media (max-width:539px) and (min-width:485px) {
   .service-shape {
     position: absolute;
-    top: 290px;
-    left: -110px;
+    top: 220px;
+    left: -130px;
   }
-
+  .servicesPage-content {
+    padding: 90px 0px;
+  }
   .servicesPage-shape-position {
     top: 0px;
     left: 0px;
   }
+
   .servicesPage-main-title {
     font-size: 58px;
     line-height: 86px;
   }
 }
+
 @media (max-width:484px) and (min-width:300px) {
   .service-shape {
     position: absolute;
-    top: 380px;
+    top: 230px;
     left: -115px;
   }
+
   .servicesPage-main-title {
-    font-size: 55px;
-    line-height: 86px;
+    font-size: 52px;
+    line-height: 76px;
   }
-   .servicesPage-shape-position {
-    top: -3px;
-    left: -10px;
+
+  .servicesPage-shape-position {
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+  }
+  .servicesPage-content {
+    padding: 60px 0px;
   }
 }

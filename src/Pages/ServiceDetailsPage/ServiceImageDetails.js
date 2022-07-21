@@ -8,10 +8,10 @@ const ServiceImageDetails = ({ detailsServices }) => {
     <div className="container">
       <div className="seviceDetails-image-container">
         <div className="seviceDetails-image-position">
-          <img src={img} alt="" className="image-middle" />
+          <img src={img} alt="" className="image-middle img-fluid" />
           <img src={video} alt="" className="video-middle-position" />
         </div>
-        <img src={shape} alt="" className="shape-right-position" />
+        <img src={shape} alt="" className="shape-right-position img-fluid" />
       </div>
     </div>
   );

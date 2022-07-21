@@ -13,10 +13,10 @@ const ServicesDetailsBanner = ({ detailsServices }) => {
             <h5 className="servicesDetails-title">{Degi}</h5>
             <div className="servicesDetails-image-position">
               <h1 className="servicesDetails-main-title">{name}
-                <img src={shape} alt="" className="servicesDetails-shape-position" />
+                <img src={shape} alt="" className="servicesDetails-shape-position img-fluid" />
               </h1>
               <p className="servicesDetails-main-peragraph">{des}</p>
-              <div className="d-flex button-gap justify-content-center align-items-center">
+              <div className="d-sm-flex button-gap justify-content-sm-center align-items-sm-center">
                 <button className="Book-button" onClick={() => navigate("/contactPage")}>Book A Class</button>
                 <button className="About-button about-page-button">Our Services</button>
               </div>
