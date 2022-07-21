@@ -57,4 +57,7 @@ body {
     line-height: 60px;
     margin-bottom: 0px;
   }
+  .swiper {
+   padding: 10px 0;
+}
 }

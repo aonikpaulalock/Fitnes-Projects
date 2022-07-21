@@ -10,7 +10,7 @@ const Header = () => {
         <Navbar.Brand href="#" className="nav-heading text-white">
           Everest
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle aria-controls="navbarScroll" className="bg-white" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className="mx-auto my-2 my-lg-0"
