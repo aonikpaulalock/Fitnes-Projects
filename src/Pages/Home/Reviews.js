@@ -17,12 +17,12 @@ const Reviews = () => {
     <div className="reviews">
       <div className="container">
         <div className="row container">
-          <div className='col-lg-5 col-md-12'>
-            <h1 className="reviews-heding service-heading">What my clients say about me?
+          <div className='col-lg-7 col-md-12'>
+            <h1 className="reviews-heding">What my clients say about me?
               <img src={shape} alt="" className='shape-satting' />
             </h1>
           </div>
-          <div className='col-lg-4 offset-lg-3 col-md-12 d-lg-flex justify-content-lg-center align-items-lg-center'>
+          <div className='col-lg-4 offset-lg-1 col-md-12 d-lg-flex justify-content-lg-center align-items-lg-center'>
             <button className="reviews-button" onClick={() => navigate("/contactPage")}>Book A Class</button>
           </div>
         </div>

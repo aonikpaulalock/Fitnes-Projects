@@ -54,25 +54,55 @@
   line-height: 28px;
   padding: 10px 45px;
 }
-.tainer-contact{
+
+.tainer-contact {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 50px;
 }
+
 .tainer-contact svg {
   width: 25px;
   height: 24px;
   cursor: pointer;
   transition: all .5s linear;
 }
+
 .svg-facebook:hover {
   color: #3b5998;
 }
+
 .svg-twitter:hover {
   color: #00acee;
 
 }
+
 .svg-instagram:hover {
-  color:  #E4405F;
+  color: #E4405F;
+}
+
+@media (max-width:752px) {
+  .Blogs-Tainer-Information {
+    height: 250px;
+  }
+
+  .Blogs-Information {
+    width: 90%;
+  }
+
+  .tainer-information img {
+    width: 25%;
+    height: 25%;
+  }
+  .Blogs-Tainer-Information {
+    background-color: var(--first-primary-color);
+    height: 300px;
+  }
+  .tainer-information p {
+    padding: 10px 15px;
+  }
+  .tainer-contact {
+    padding-bottom: 30px;
+}
 }

@@ -7,7 +7,7 @@
   margin-top: -43%;
 }
 
-.inside-image-position {
+.inside-img-position {
   position: absolute;
   bottom: -70px;
   right: -35px;
@@ -36,4 +36,12 @@
 .image-margin {
   display: block;
   margin: 50px auto;
+}
+
+
+@media (max-width:604px) {
+  .inside-img-position {
+    bottom: -70px;
+    right: 0px;
+  }
 }

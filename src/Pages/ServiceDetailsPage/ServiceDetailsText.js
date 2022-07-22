@@ -8,14 +8,14 @@ const ServiceDetailsText = ({ detailsServices }) => {
         <h1 className="details-text-main-heading">{detailsName}</h1>
       </div>
       <div className="row">
-        <div className="col-lg-7 me-lg-5 me-2 col-md-12">
+        <div className="col-lg-7 me-lg-5 me-2">
           <div className="details-text-content">
             <p className="details-text-pera">{detailsDescription}</p>
             <img src={DetailsImg} alt="" className="details-image img-fluid" />
             <p className="details-text-pera">{detailsDescription2}</p>
           </div>
         </div>
-        <div className="col-lg-4 col-md-12">
+        <div className="col-lg-4">
           <div className="class-details-content">
             {classDetails?.map((classDetail,index) =>
               <div key={index}>

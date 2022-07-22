@@ -133,7 +133,9 @@
   .reviews-button {
     width: 100%;
     height: 50px;
+    margin-left: 0px;
   }
+  
   .details-book-button {
     width: 80%;
     height: 52px;
