@@ -31,7 +31,57 @@
 
 .contact-position-image {
   position: absolute;
-  top: 150px;
-  left: 257px;
+  top: 15%;
+  left: 15%;
   z-index: 1;
+}
+
+@media (max-width:984px) {
+  .contact-position-image {
+    position: absolute;
+    top: 14%;
+    left: 8%;
+    z-index: 1;
+  }
+  .contact-banner-container {
+    padding-bottom: 400px;
+  }
+}
+@media (max-width:773px) {
+  .contact-position-image {
+    position: absolute;
+    top: 13%;
+    left: 14%;
+    z-index: 1;
+  }
+  .contact-banner-container {
+    padding-bottom: 300px;
+  }
+}
+@media (max-width:532px) {
+  .contact-position-image {
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    z-index: 1;
+  }
+}
+@media (max-width:432px) {
+  .contact-position-image {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 1;
+  }
+  .contact-banner-container {
+    padding-bottom: 200px;
+  }
+  .contact-main-heading {
+    font-size: 56px;
+    line-height: 80px;
+    padding: 16px 0 72px 0;
+  }
+  .contact-sub-title {
+    padding-top: 57px;
+  }
 }

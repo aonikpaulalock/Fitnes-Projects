@@ -1,9 +1,14 @@
 .contact-map-information {
   background: #F8F7FC;
   padding: 45px;
-  width: 1110px;
+  width: 99.5%;
   margin-top: 150px;
  
+}
+.contact-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .contact-map-information h6 {
   font-family: 'Inter';
@@ -13,4 +18,19 @@
   line-height: 19px;
   color: #000000;
   margin-bottom: 0;
+}
+
+
+@media (max-width:602px) {
+  .contact-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-map-information {
+    padding: 30px;
+  }
+  .contact-map-information h6 {
+    margin-bottom: 10px;
+}
 }
