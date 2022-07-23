@@ -35,7 +35,14 @@
   left: 15%;
   z-index: 1;
 }
-
+/* @media (max-width:1140px) {
+  .contact-position-image {
+    position: absolute;
+    top: 14%;
+    left: 8%;
+    z-index: 1;
+  }
+} */
 @media (max-width:984px) {
   .contact-position-image {
     position: absolute;

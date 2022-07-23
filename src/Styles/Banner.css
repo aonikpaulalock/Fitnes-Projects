@@ -62,10 +62,10 @@
     padding-top: 30px;
   }
   .banner-main-heading {
-    font-size: 43px;
+    font-size: 45px;
+    line-height: 73px;
   }
-
   .home-banner-content {
-    padding: 25px;
+    padding: 15px;
   }
 }

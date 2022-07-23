@@ -8,7 +8,7 @@ const MarginSuccess = () => {
       <img src={shape} alt="" className="success-form-shape" />
       <div className="message-container">
         <h6 className="succes-tittle d-flex justify-content-center align-items-center">Thank you! Your submission has been received!</h6>
-        <img src={submitshape} alt="" className="image-sucees" />
+        <img src={submitshape} alt="" className="image-sucees img-fluid" />
       </div>
     </div>
   );

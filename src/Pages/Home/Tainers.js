@@ -2,6 +2,7 @@ import React from 'react';
 import "../../Styles/Tainers.css"
 import shape from "../../Asset/Banner/Shape.png"
 import Tainer from './Tainer';
+import { useNavigate } from 'react-router-dom';
 const tainers = [
   { id: 1, name: "Certified trainer", des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea natus sunt quaerat veniam fuga consequatur?", img: "https://i.ibb.co/b561rtS/tainning1.png" },
   { id: 2, name: "Nutrition & diet", des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea natus sunt quaerat veniam fuga consequatur?", img: "https://i.ibb.co/rwC791V/taining2.png" },
@@ -11,6 +12,7 @@ const tainers = [
   { id: 6, name: "Commitment", des: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea natus sunt quaerat veniam fuga consequatur?", img: "https://i.ibb.co/3fnKwr6/taining6.png" },
 ]
 const Tainers = () => {
+  const navigate = useNavigate()
   return (
     <div className='tainers'>
       <div className="container">
@@ -21,7 +23,7 @@ const Tainers = () => {
             </h1>
           </div>
           <div className="col-md-6 d-flex justify-content-md-end align-items-center mt-3 mt-md-0">
-            <button className="About-button ms-0">Learn More</button>
+            <button className="About-button ms-0" onClick={()=>navigate("/aboutpage")}>Learn More</button>
           </div>
         </div>
           <div className="row">

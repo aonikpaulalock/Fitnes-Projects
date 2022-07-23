@@ -17,7 +17,7 @@ const AboutBanner = () => {
             </div>
             <div className="d-xm-flex d-sm-flex d-md-flex d-lg-flex button-gap justify-content-center align-items-center">
               <button className="Book-button" onClick={()=>navigate("/contactPage")}>Book A Class</button>
-              <button className="About-button about-page-button">Our Services</button>
+              <button className="About-button about-page-button" onClick={()=>navigate("/servicePages")}>Our Services</button>
             </div>
           </div>
         </div>

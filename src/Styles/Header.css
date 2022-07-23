@@ -1,6 +1,6 @@
 .nav-bg {
   background-color: var(--first-primary-color);
-  padding: 15px 0px !important;
+  padding: 22px 0px !important;
 }
 
 
@@ -13,11 +13,19 @@
 }
 
 .nav-anchor {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
+  font-family: 'Inter' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 17px !important;
   color: #BCB8D0 !important;
-  margin-right: 20px;
+  padding: 11px 22px;
+  text-decoration: none !important;
+}
+
+.active {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #2A263F;
+  border-radius: 5px;
 }

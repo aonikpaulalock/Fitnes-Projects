@@ -26,8 +26,11 @@
   line-height: 32px;
   color: var(--first-primary-color);
   cursor: pointer;
+  transition: all linear 1s;
 }
-
+.learn-more:hover svg {
+  transform: translateX(50%);
+}
 /* Media Quries */
 @media (max-width:990px) {
   .nagative-image {

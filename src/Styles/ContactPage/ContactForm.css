@@ -99,8 +99,8 @@ label {
 
 /* =========  SuccesFull-Container-style ========== */
 .successfull-container {
-  width: 923px;
-  height: 307px;
+  width: 100%;
+  height: 100%;
   background: #FFFFFF;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.02);
   border-radius: 5px;
@@ -108,6 +108,7 @@ label {
   padding-left: 95px;
   position: relative;
   margin-bottom: 100px;
+  padding-bottom: 60px;
 }
 
 .success-form-shape {
@@ -118,10 +119,11 @@ label {
 }
 
 .message-container {
-  width: 752px;
+  width: 80%;
   height: 75px;
   background: #F58859;
   border-radius: 5px;
+
 }
 
 .succes-tittle {
@@ -144,6 +146,7 @@ label {
   left: 0;
 }
 
+/* Contact-Form-responsive */
 
 @media (max-width:992px) {
   .form-container {
@@ -166,6 +169,7 @@ label {
     text-align: center;
   }
 }
+
 @media (max-width:602px) {
   .contact-shape-position {
     right: 0px;
@@ -173,8 +177,69 @@ label {
     z-index: 1;
   }
 }
+
 @media (max-width:432px) {
   .form-container {
     padding-left: 0px;
+  }
+}
+
+
+/* successfull Container Responsive */
+
+@media (max-width:1198px) {
+  .message-container {
+    height: 68px;
+  }
+}
+@media (max-width:1040px) {
+    .success-form-shape {
+      position: absolute;
+      right: -20px;
+      bottom: -65px;
+      z-index: -1;
+    }
+}
+@media (max-width:988px) {
+  .message-container {
+    height: 60px;
+  }
+  .image-sucees {
+    position: absolute;
+    top: 0;
+    left: -30px;
+  }
+}
+@media (max-width:767px) {
+  .form-heading {
+    text-align: center;
+  }
+  .succes-tittle {
+    text-align: center;
+    font-size: 16px;
+  }
+  .image-sucees {
+    top: 0;
+    left: -10px;
+  }
+  .message-container {
+    width: 100%;
+    height: 75px;
+  }
+ .successfull-container {
+    padding-left: 10px;
+  }
+  
+}
+@media (max-width:767px) {
+  .success-form-shape {
+    position: absolute;
+    right: 0px;
+    bottom: -95px;
+    z-index: -1;
+  }
+  .image-sucees {
+    top: -10px;
+    left: -9px;
   }
 }
