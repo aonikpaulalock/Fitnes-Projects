@@ -20,10 +20,10 @@
 }
 .scale-image{
   overflow: hidden;
+  border-radius: 5px;
 }
 .scale-image img:hover {
   transform: scale(1.1);
-  overflow: auto;
   transition: transform .8s linear;
   cursor: pointer;
 }
