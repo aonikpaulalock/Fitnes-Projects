@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import emailjs from "emailjs-com"
 import "../../Styles/ContactPage/ContactForm.css"
 import { useNavigate } from "react-router-dom"
@@ -25,7 +25,7 @@ const ContactForm = () => {
         {
           success.status === 200 ?
             // True 
-              navigate("/contactSuccessPage")
+            navigate("/contactSuccessPage")
             :
             // False 
             <div className="contact-form">
