@@ -5,7 +5,6 @@ import BlogsDetailsText from './BlogsDetailsText';
 import BlogsTainerDetails from './BlogsTainerDetails';
 import Tricks from '../Home/Tricks';
 import Sliders from '../Home/Sliders';
-import BlogsTainerInformation from './BlogsTainerInformation';
 const BlogsDetails = () => {
   const { id } = useParams()
   const [detailsBlogs, setDetailsBlogs] = useState({})
@@ -15,7 +14,6 @@ const BlogsDetails = () => {
       .then(res => res.json())
       .then(data => {
         setDetailsBlogs(data)
-        console.log(data)
       })
   }, [url])
   return (

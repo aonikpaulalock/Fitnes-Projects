@@ -20,15 +20,16 @@
   margin-bottom: 0;
 }
 
-.footer-sub-heading span {
+.footer-sub-heading a {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
-  color: #BCB8D0;
+  color: #BCB8D0 !important;
   margin-right: 31px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .second-back {
@@ -83,7 +84,7 @@
     margin-bottom: 15px;
   }
 
-  .footer-sub-heading span {
+  .footer-sub-heading a {
     display: block;
     margin-right: 0px;
     margin-bottom: 15px;

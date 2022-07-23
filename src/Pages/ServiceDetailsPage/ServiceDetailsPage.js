@@ -14,7 +14,6 @@ const ServiceDetailsPage = () => {
       .then(res => res.json())
       .then(data => {
         setDetailsServices(data)
-        console.log(data)
       })
   }, [url])
   return (

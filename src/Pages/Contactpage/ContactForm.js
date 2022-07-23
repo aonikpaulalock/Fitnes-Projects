@@ -31,26 +31,26 @@ const ContactForm = () => {
             <div className="contact-form">
               <form className="form-container" onSubmit={sendEmail}>
                 <h4 className="form-heading">Let's get in touch!</h4>
-                <div class="row">
-                  <div class="form-group col-lg-5 col-md-12">
-                    <label for="inputEmail1">First Name</label>
-                    <input type="text" class="form-control " id="inputEmail1" name="fristName" placeholder="What is your name?" required />
+                <div className="row">
+                  <div className="form-group col-lg-5 col-md-12">
+                    <label htmlFor="inputEmail1">First Name</label>
+                    <input type="text" className="form-control " id="inputEmail1" name="fristName" placeholder="What is your name?" required />
                   </div>
-                  <div class="form-group col-lg-5 col-md-12">
-                    <label for="inputPassword2">Last Name</label>
-                    <input type="text" class="form-control" id="inputPassword2" name="lastName" placeholder="What is your last name?" required />
+                  <div className="form-group col-lg-5 col-md-12">
+                    <label htmlFor="inputPassword2">Last Name</label>
+                    <input type="text" className="form-control" id="inputPassword2" name="lastName" placeholder="What is your last name?" required />
                   </div>
-                  <div class="form-group col-lg-5 col-md-12">
-                    <label for="inputEmail3">Email Adress</label>
-                    <input type="email" class="form-control " id="inputEmail3" name="email" placeholder="What is your email adress?" required />
+                  <div className="form-group col-lg-5 col-md-12">
+                    <label htmlFor="inputEmail3">Email Adress</label>
+                    <input type="email" className="form-control " id="inputEmail3" name="email" placeholder="What is your email adress?" required />
                   </div>
-                  <div class="form-group col-lg-5 col-md-12">
-                    <label for="inputPassword4">Phone Number</label>
-                    <input type="text" class="form-control" id="inputPassword4" name="phoneNumber" placeholder="What is your phone number?" required />
+                  <div className="form-group col-lg-5 col-md-12">
+                    <label htmlFor="inputPassword4">Phone Number</label>
+                    <input type="text" className="form-control" id="inputPassword4" name="phoneNumber" placeholder="What is your phone number?" required />
                   </div>
-                  <div class="form-group col-lg-10 col-md-12">
-                    <label for="inputPassword5" className="lavel-vai">Message</label>
-                    <textarea type="text" class="form-control" id="inputPassword5" name="message" placeholder="Enter Your Message" required />
+                  <div className="form-group col-lg-10 col-md-12">
+                    <label htmlFor="inputPassword5" className="lavel-vai">Message</label>
+                    <textarea type="text" className="form-control" id="inputPassword5" name="message" placeholder="Enter Your Message" required />
                   </div>
                   <button className="form-button" type='submit' data-toggle="modal" data-target=".bd-example-modal-lg">Send Message</button>
                 </div>

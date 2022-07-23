@@ -11,7 +11,6 @@ const BlogsTainerInformation = () => {
       .then(res => res.json())
       .then(data => {
         setDetailsBlogs(data)
-        console.log(data)
       })
   }, [url])
   return (

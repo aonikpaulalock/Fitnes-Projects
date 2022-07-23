@@ -1,6 +1,8 @@
 import React from 'react';
 import "../Styles/Footer.css"
+import { Link, useNavigate } from 'react-router-dom';
 const Footer = () => {
+  const navigate = useNavigate()
   return (
     <>
       <div className="frist-back">
@@ -8,12 +10,11 @@ const Footer = () => {
           <div className="frist-content">
             <h1 className="footer-heading">Everst</h1>
             <div className="footer-sub-heading">
-              <span>Home</span>
-              <span>About</span>
-              <span>Classes</span>
-              <span>Blog</span>
-              <span>Schudule</span>
-              <span>Contact</span>
+              <Link to="/">Home</Link>
+              <Link to="/aboutpage">About</Link>
+              <Link to="/servicePages">Services</Link>
+              <Link to="/blogs">Blog</Link>
+              <Link to="/contactPage">Contact</Link>
             </div>
           </div>
         </div>
