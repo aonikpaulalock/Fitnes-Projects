@@ -8,7 +8,7 @@ import Sliders from '../Home/Sliders';
 const BlogsDetails = () => {
   const { id } = useParams()
   const [detailsBlogs, setDetailsBlogs] = useState({})
-  const url = `http://localhost:5000/blogs/${id}`
+  const url = `https://infinite-ocean-81703.herokuapp.com/blogs/${id}`
   useEffect(() => {
     fetch(url)
       .then(res => res.json())
