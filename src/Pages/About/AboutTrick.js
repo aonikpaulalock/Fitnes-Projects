@@ -2,8 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const AboutTrick = ({ trick }) => {
-  const { img, skills, name, details, tainer } = trick;
   const navigate = useNavigate()
+  const { img, skills, name, details, tainer } = trick;
   return (
     <div className="col-lg-4 col-md-6 col-12">
       <div className="position-container">
