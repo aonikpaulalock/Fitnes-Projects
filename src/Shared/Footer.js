@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="second-back">
         <div className="container">
           <div className="second-foooter-content">
-            <h6 className="second-footer-heading">© 2022 copyright by <span>Flowbase</span> - Everst </h6>
+            <h6 className="second-footer-heading">© 2022 copyright by <span>- Everst </span></h6>
             <div className="second-footer-sub-heading">
               <span>Syle Giide</span>
               <span>Changelog</span>
