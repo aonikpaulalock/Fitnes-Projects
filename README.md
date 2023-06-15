@@ -1,6 +1,6 @@
 # Fitness Club Projects 
 ## Live Site
-This project was bootstrapped with(https://sunny-nasturtium-f11e5e.netlify.app/).
+### https://sunny-nasturtium-f11e5e.netlify.app/.
 
 ## Description
 * 
