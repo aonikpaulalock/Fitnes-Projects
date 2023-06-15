@@ -5,7 +5,7 @@ import Trick from './Trick';
 const Tricks = () => {
   const [tricks, setTricks] = useState([])
   useEffect(() => {
-   fetch("https://infinite-ocean-81703.herokuapp.com/blogs")
+   fetch("https://fitness-server-tau.vercel.app/blogs")
    .then(res => res.json())
    .then(data => {
     setTricks(data)

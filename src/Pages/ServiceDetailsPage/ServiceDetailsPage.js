@@ -8,7 +8,7 @@ import ServicesDetailsBanner from './ServicesDetailsBanner';
 const ServiceDetailsPage = () => {
   const { id } = useParams()
   const [detailsServices,setDetailsServices] = useState({})
-  const url = `https://infinite-ocean-81703.herokuapp.com/services/${id}`
+  const url = `https://fitness-server-tau.vercel.app/services/${id}`
   useEffect(() => {
     fetch(url)
       .then(res => res.json())

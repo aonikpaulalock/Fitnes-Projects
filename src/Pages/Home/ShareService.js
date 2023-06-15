@@ -4,7 +4,7 @@ import Service from './Service';
 const ShareService = () => {
   const [services, setServices] = useState([])
   useEffect(() => {
-    fetch("https://infinite-ocean-81703.herokuapp.com/services")
+    fetch("https://fitness-server-tau.vercel.app/services")
       .then(res => res.json())
       .then(data =>{
         setServices(data)
