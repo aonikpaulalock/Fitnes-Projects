@@ -6,7 +6,13 @@ import "../../Styles/Waiting.css"
 const Waiting = () => {
   const navigate = useNavigate()
   return (
-    <div className="waiting container">
+    <div className="waiting container"
+      data-aos="zoom-in"
+      data-aos-offset="200"
+      data-aos-duration="2000"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+    >
       <div className="row">
         <div className="col-lg-6 col-md-12 order-2 order-lg-1">
           <div className="wating-content">

@@ -13,7 +13,8 @@ import { EffectCoverflow, Pagination, Autoplay } from "swiper";
 const Sliders = () => {
   return (
     <>
-      <div className="Slider-container">
+      <div className="Slider-container"
+      >
         <h1 className="slider-heading">Follow me on Instagram</h1>
         <Swiper
           effect={"coverflow"}
@@ -28,7 +29,7 @@ const Sliders = () => {
             slideShadows: true,
             loop: true,
             allowClick: true,
-          
+
           }}
           autoplay={{
             delay: 1500,

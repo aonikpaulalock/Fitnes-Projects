@@ -16,7 +16,7 @@ const sudules = [
         "Esther Howard",
         "Cody Fisher",
         "",
-      "Jenny Wilson"]
+        "Jenny Wilson"]
   },
   {
     id: 2,
@@ -82,7 +82,13 @@ const sudules = [
 ]
 const Sudules = () => {
   return (
-    <div className="table-container container">
+    <div className="table-container container"
+    data-aos="fade-up"
+    data-aos-offset="200"
+    data-aos-duration="1500"
+    data-aos-easing="ease-in-out"
+    data-aos-delay="300"
+    >
       <h1 className="schedule-main-heading">Classes Schedule</h1>
       <div className="container">
         <div className="table-responsive">

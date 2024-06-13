@@ -3,7 +3,13 @@ import shape from "../../Asset/Service/Shape.png"
 import "../../Styles/Quesions.css"
 const Quesions = () => {
   return (
-    <div className="Question">
+    <div className="Question"
+    data-aos="zoom-in-up"
+    data-aos-offset="200"
+    data-aos-duration="2000"
+    data-aos-easing="ease-in-out"
+    data-aos-delay="300"
+    >
       <div className="quesion-position">
         <div>
           <h1 className="quesion-heading">Frequently Asked <br /> Questions

@@ -15,7 +15,13 @@ const Reviews = () => {
   const navigate = useNavigate()
   return (
     <div className="reviews">
-      <div className="container">
+      <div className="container"
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in-out"
+        data-aos-delay="300"
+      >
         <div className="row container">
           <div className='col-lg-7 col-md-12'>
             <h1 className="reviews-heding">What my clients say about me?

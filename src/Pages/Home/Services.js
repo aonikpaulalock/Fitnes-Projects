@@ -4,7 +4,14 @@ import "../../Styles/Services.css"
 import ShareService from './ShareService';
 const Services = () => {
   return (
-    <div className="container service">
+    <div className="container service"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-duration="2000"
+      data-aos-easing="ease-in-out"
+      data-aos-delay="300"
+      data-aos-anchor-placement="top-bottom"
+    >
       <div className="col-lg-5 col-md-8 col-12">
         <div className='shape-content'>
           <h1 className="service-heading">Services
