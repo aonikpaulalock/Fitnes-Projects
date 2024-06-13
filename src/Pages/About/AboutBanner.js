@@ -6,7 +6,13 @@ const AboutBanner = () => {
   const navigate = useNavigate()
   return (
     <div className="container-fluid About-page">
-      <div className="container">
+      <div className="container"
+       data-aos="fade-up"
+       data-aos-offset="200"
+       data-aos-duration="1500"
+       data-aos-easing="ease-in-out"
+       data-aos-delay="300"
+      >
         <div className="col d-flex justify-content-center align-items-center">
           <div className="aboutpage-content">
             <h5 className="aboutpage-title">EVEREST TEAM</h5>
@@ -16,8 +22,8 @@ const AboutBanner = () => {
               </h1>
             </div>
             <div className="d-xm-flex d-sm-flex d-md-flex d-lg-flex button-gap justify-content-center align-items-center">
-              <button className="Book-button" onClick={()=>navigate("/contactPage")}>Book A Class</button>
-              <button className="About-button about-page-button" onClick={()=>navigate("/servicePages")}>Our Services</button>
+              <button className="Book-button" onClick={() => navigate("/contactPage")}>Book A Class</button>
+              <button className="About-button about-page-button" onClick={() => navigate("/servicePages")}>Our Services</button>
             </div>
           </div>
         </div>
