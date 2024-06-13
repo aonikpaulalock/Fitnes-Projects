@@ -9,7 +9,7 @@ const tricks = [
     tainer: "Jerom Bell",
     name: "GYM & CROSSFIT & YOGA",
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-    skills:[
+    skills: [
       "Over 10 years of experience",
       "Coached 2,000+ people",
       "Bachelors in nutrition"
@@ -21,7 +21,7 @@ const tricks = [
     tainer: "Alfonso Stanton",
     name: "GYM & CROSSFIT & YOGA",
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-    skills:[
+    skills: [
       "Over 10 years of experience",
       "Coached 2,000+ people",
       "Bachelors in nutrition"
@@ -33,7 +33,7 @@ const tricks = [
     tainer: "Jaxson Saris",
     name: "GYM & CROSSFIT & YOGA",
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-    skills:[
+    skills: [
       "Over 10 years of experience",
       "Coached 2,000+ people",
       "Bachelors in nutrition"
@@ -43,7 +43,11 @@ const tricks = [
 const AboutTricks = () => {
   return (
     <div className="container">
-      <div className="tricks-container">
+      <div className="tricks-container"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+      >
         <div className="About-Tricks-Position">
           <h1 className="About-Tricks tricks-heading">Read our tips and <br /> tricks
             <img src={shape} alt="" className="about-tricks-shape img-fluid" />

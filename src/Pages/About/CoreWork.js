@@ -13,10 +13,21 @@ const CoreWork = () => {
   return (
     <div>
       <div className="container">
-        <div className="core-work-image-container">
-          <img src={image} alt="" className="img-fluid"/>
+        <div className="core-work-image-container"
+          data-aos="zoom-in-up"
+          data-aos-offset="200"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="50"
+        >
+          <img src={image} alt="" className="img-fluid" />
         </div>
-        <div>
+        <div
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-duration="1500"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="300">
           <div className="core-heading-content row">
             <div className="col-md-6">
               <h1 className="core-work-heading">My core work values
@@ -26,7 +37,7 @@ const CoreWork = () => {
             <div className="col-md-6 d-flex justify-content-md-end align-items-center mt-2 mb-3 mt-md-0 mb-md-0">
               <button className="About-button about-page-button ms-0" onClick={() => navigate("/contactPage")}>Book A Class</button>
             </div>
-        </div>
+          </div>
           <div className="row core-service-gap">
             {
               tainers.map(tainer => <div

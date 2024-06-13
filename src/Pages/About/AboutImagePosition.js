@@ -8,47 +8,58 @@ import "../../Styles/Aboutpages/AboutImagePosition.css"
 import shape from "../../Asset/About/Core-Work-Map/allShape.png"
 const AboutImagePosition = () => {
   return (
-      <div className="container">
-        <div className="banner-image-container">
-          <div className="banner-image-position">
-            <img src={bannerImage} alt="" className="img-fluid" />
-          </div>
-          <div className="about-content-container">
-            <div className="row">
-              <div className="col-lg-3">
-                <div className="row">
-                  <div className="banner-image-position1">
-                    <img src={about1} alt="" className="banner-image-top img-fluid" />
-                    <img src={shape1} alt="" className="shape-position img-fluid" />
+    <div className="container">
+      <div className="banner-image-container"
+        data-aos="zoom-in-up"
+        data-aos-offset="200"
+        data-aos-duration="1000"
+        data-aos-easing="linear"
+        data-aos-delay="50"
+      >
+        <div className="banner-image-position">
+          <img src={bannerImage} alt="" className="img-fluid" />
+        </div>
+        <div className="about-content-container"
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          data-aos-delay="200"
+        >
+          <div className="row">
+            <div className="col-lg-3">
+              <div className="row">
+                <div className="banner-image-position1">
+                  <img src={about1} alt="" className="banner-image-top img-fluid" />
+                  <img src={shape1} alt="" className="shape-position img-fluid" />
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 offset-lg-1">
+              <div className="row">
+                <div className="col-lg-12">
+                  <h1 className="banner-content p-3">About Max Ganes ?
+                    <img src={shape} alt="" className="banner-satting" />
+                  </h1>
+                  <div className="row-content">
+                    <p className="banner-content-pera">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                      <br />
+                      <br />
+                      All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 offset-lg-1">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <h1 className="banner-content p-3">About Max Ganes ?
-                      <img src={shape} alt="" className="banner-satting" />
-                    </h1>
-                    <div className="row-content">
-                      <p className="banner-content-pera">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-                        <br />
-                        <br />
-                        All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 offset-lg-1">
-                <div className="row">
-                  <div className="banner-image-position2">
-                    <img src={about2} alt="" className="banner-image-bottom" />
-                    <img src={shape2} alt="" className="shape-position2" />
-                  </div>
+            </div>
+            <div className="col-lg-3 offset-lg-1">
+              <div className="row">
+                <div className="banner-image-position2">
+                  <img src={about2} alt="" className="banner-image-bottom" />
+                  <img src={shape2} alt="" className="shape-position2" />
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </div>
   );
 };

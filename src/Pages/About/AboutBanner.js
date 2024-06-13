@@ -9,9 +9,9 @@ const AboutBanner = () => {
       <div className="container"
        data-aos="fade-up"
        data-aos-offset="200"
-       data-aos-duration="1500"
-       data-aos-easing="ease-in-out"
-       data-aos-delay="300"
+       data-aos-duration="1000"
+       data-aos-easing="linear"
+       data-aos-delay="100"
       >
         <div className="col d-flex justify-content-center align-items-center">
           <div className="aboutpage-content">

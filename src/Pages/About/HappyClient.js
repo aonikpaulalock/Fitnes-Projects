@@ -11,7 +11,11 @@ const happys = [
 const HappyClient = () => {
   return (
     <div className="container-fluid happy-client">
-      <div className="container">
+      <div className="container"
+      data-aos="zoom-in"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+      >
         <div className="d-flex justify-content-between">
           <div className="col-lg-6 col-md-12">
             <div className="client-position">
