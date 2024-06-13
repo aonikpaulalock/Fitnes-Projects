@@ -6,12 +6,15 @@ const ShareService = () => {
   useEffect(() => {
     fetch("https://fitness-server-tau.vercel.app/services")
       .then(res => res.json())
-      .then(data =>{
+      .then(data => {
         setServices(data)
       })
   }, [])
   return (
-    <div className="container">
+    <div className="container"
+      data-aos="zoom-in"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <div className="row">
         {
           services.map(service => <Service
